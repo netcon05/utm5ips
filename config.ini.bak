@@ -1,0 +1,21 @@
+# Database connection settings
+# Do not change key names
+# Change only values
+[database]
+host     = 192.168.0.10
+database = UTM5
+user     = user
+password = pass
+
+# List of subnets to look for
+# available ip addresses in
+# Each key name has to be unique
+[subnets]
+nas01_1     = 10.20.0.0/24
+nas01_2     = 10.10.16.0/24
+
+# List of excluded ip addresses
+# Each key name has to be unique
+[exceptions]
+except1 = 10.20.0.1
+except2 = 10.10.16.1
